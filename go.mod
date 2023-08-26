@@ -1,3 +1,3 @@
 module github.com/DHasib/banking-system-golang
 
-go 1.20
+go 1.21
