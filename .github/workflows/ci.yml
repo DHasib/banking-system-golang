@@ -17,8 +17,8 @@ jobs:
         image: postgres:15
         env:
           POSTGRES_USER: root
-          POSTGRES_PASSWORD: secret
-          POSTGRES_DB: simple_bank
+          POSTGRES_PASSWORD: password
+          POSTGRES_DB: bank_db
         ports:
           - 5432:5432
         options: >-
